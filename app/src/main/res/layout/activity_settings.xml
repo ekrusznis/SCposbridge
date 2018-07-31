@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"/>
+
+
+        <TextView
+            android:id="@+id/locationIDView"
+            android:layout_below="@+id/toolbar"
+            android:hint="your location ID"
+            android:layout_width="wrap_content"
+            android:background="@color/gray"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/getLocationButton"
+            android:layout_below="@+id/locationIDView"
+            android:text="Get Location ID"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:text="GET TRANSACTIONS"
+        android:id="@+id/getTransactionsButton"
+        android:layout_below="@+id/getLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</android.widget.RelativeLayout>

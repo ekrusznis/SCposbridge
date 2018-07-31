@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SellerCloud Point Of Sale</string>
+    <string name="auto_return_timeout_hint">Auto Return Timeout (optional, in millis)</string>
+    <string name="card_text">Card</string>
+    <string name="cash_text">Cash</string>
+    <string name="currency_code_default">USD</string>
+    <string name="currency_code_hint">Currency Code</string>
+    <string name="customer_id_hint">Customer ID (optional)</string>
+    <string name="install_point_of_sale_confirm">Open Play Store</string>
+    <string name="install_point_of_sale_message">Please download Square Point of Sale from the Play Store.</string>
+    <string name="install_point_of_sale_title">Square Point of Sale is not installed</string>
+    <string name="location_id_hint">Location ID (optional)</string>
+    <string name="miscellaneous_header">Miscellaneous</string>
+    <string name="note_default">Build with Square</string>
+    <string name="note_hint">Note (optional)</string>
+    <string name="other_tender_text">Other Tenders</string>
+    <string name="tender_header">Tender Types</string>
+    <string name="transaction_amount_default">100</string>
+    <string name="transaction_amount_hint">Transaction Amount (cents)</string>
+    <string name="transaction_details_header">Transaction Details</string>
+    <string name="request_metadata_default">Very Meta.</string>
+    <string name="request_metadata_hint">Request Metadata</string>
+    <string name="result_title">Point of Sale API Result</string>
+    <string name="card_on_file_text">Card on File</string>
+
+    <string name="stop">Stop</string>
+    <string name="refresh">Refresh</string>
+    <string name="action_search">Search</string>
+
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_new">New</string>
+    <string name="logo_desc">App logo</string>
+
+    <string name="scan_product_text">Scan product SKU/UPC</string>
+    <string name="save_button">Save</string>
+    <string name="close_button">Close</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="finish_order">Finish</string>
+
+    <string name="transition_dialog">transition_dialog</string>
+
+    <string name="square_appID">sq0idp-c5TfEVuHu7DmBrVQf3NHuA</string>
+    <string name="square_sandbox_appID">sandbox-sq0idp-c5TfEVuHu7DmBrVQf3NHuA</string>
+    <string name="square_token">sq0atp-n6s2lzSfbZL2sdQTKEWByw</string>
+    <string name="square_sandbox_token">sandbox-sq0atb-7QgJlT605gBYqO3LOPTi5g</string>
+
+    <string name="clover_app_id">Z0NYC425YEXVA</string>
+    <string name="clover_app_secret">3624dd03-ba54-2ba2-2c69-d53307719e2f</string>
+
+
+    <string name="price_format">$%1$s</string>
+    <string name="name_format">Product %1$s</string>
+
+
+
+
+
+
+</resources>

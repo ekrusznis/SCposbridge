@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/menu_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/menuicon"
+        app:showAsAction="never"
+        android:orderInCategory="105" />
+
+    <item android:id="@+id/logout"
+        android:title="Log Out"
+        app:showAsAction="withText"
+        android:orderInCategory="111"/>
+
+
+    <item android:id="@+id/menu_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/iconsearch"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="110"/>
+
+
+
+</menu>
